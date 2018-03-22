@@ -11,3 +11,27 @@ First of all I've created a GraphQl schema, then a root to fill it in.
 At the end, using ExpressJS and graphqlHTTP I have been able to open the GraphiQL tool and create my API using the schema and the root I've created
 
 ![](https://image.ibb.co/bVvGCx/Screen_Shot_2018_03_22_at_12_20_55.png)
+
+## How to use it
+
+1) Clone the project
+```
+git clone git@github.com:Vanals/GraphQL-GettinStarted.git
+```
+
+2) Changes into the project directory on ur computer via Terminal
+```
+cd GraphQL-GettinStarted
+```
+
+3) Open open the GraphiQL tool in your browser
+```
+node server.js
+```
+
+4) Create the API writing in the left side the following code, then press the PLAY button.
+```
+{
+  hello
+}
+```
